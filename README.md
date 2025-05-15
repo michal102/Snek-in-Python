@@ -29,3 +29,6 @@ Reach each point goal to advance to the next level. Gain 100 points to win.
 You can edit every map by replacing characters corresponding to walls, background and portals in the text file.
 The map loops, so crossing border without walls means teleporting to the other side.
 Keep in mind that if the number of tiles is mismatched - the game won't run.
+
+
+-- it's an upload of one of my college projects --
