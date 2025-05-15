@@ -9,7 +9,7 @@ green o - is your snek
 red o - is an apple
 inverted o - is an enemy snake
 gold o - golden apple (restores health)
-# - are walls
+'#' - are walls
 + - are portals to next level
 . - are background tiles.
 
