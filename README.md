@@ -1,34 +1,49 @@
-# Snek-in-Python
-a snake game (that can be run in console) implemented in python
+# 🐍 Snek-in-Python
 
+A classic Snake game that runs directly in the **console**, implemented in **Python**.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7cdbbc81-0d2e-4842-b949-81594ce2cab7" alt="Snek being inside Python/>
+</p>
 
-Controll using WASD.
-Start game by pressing any of these keys.
+---
 
+## Controls
+- Use `WASD` to control the snake.
+- Start the game by pressing any of these keys.
 
+---
 
-Game has 3 levels with custom maps, where:  
-green 'o' - is your snek  
-red 'o' - is an apple  
-inverted 'o' - is an enemy snake  
-gold 'o' - golden apple (restores health)  
-'#' - are walls  
-'+' - are portals to next level  
-'.' - are background tiles.  
+## Levels & Symbols
+The game has **3 levels**, each with a **custom map** defined in a `.txt` file.
 
+| Symbol | Meaning                        |
+|--------|--------------------------------|
+| `o` `(green)`            | Your snake   |
+| `o` `(red)`              | Apple        |
+| `o` `(white on black)`   | Enemy snake  |
+| `o` `(gold/yellow)`      | Golden apple |
+| `#`    | Wall                           |
+| `+`    | Portal to next level           |
+| `.`    | Background tile                |
 
-Collisions with any other objects than apples resoults in decrease in hp. You loose when you run out of it.
+---
 
+## Gameplay Rules
+- **Colliding with anything but apples** reduces your health.
+- **You lose** when your health reaches zero.
+- Reach the **point goal** to advance to the next level.
+- Score **100 points** to win the game.
 
-Reach each point goal to advance to the next level. Gain 100 points to win.
+---
 
+## Important Notes
+- **Keep the map `.txt` file in the same directory** as the game script – otherwise, it won't run.
+- You can edit maps by modifying the text file:
+  - Replace symbols to define walls, background, portals, etc.
+  - The map **loops**, so crossing borders without walls teleports you to the other side.
+  - Ensure the tile count is consistent – **mismatched dimensions will crash the game**.
 
--- KEEP THE MAP TXT FILE IN THE SAME DIRECTORY OR THE GAME WON'T RUN --
+---
 
-You can edit every map by replacing characters corresponding to walls, background and portals in the text file.
-The map loops, so crossing border without walls means teleporting to the other side.
-Keep in mind that if the number of tiles is mismatched - the game won't run.
-
-
--- it's an upload of one of my college projects --
+> *This project is a college assignment I decided to upload and share.*
