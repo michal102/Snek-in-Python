@@ -1,4 +1,4 @@
-# 🐍 Snek-in-Python
+# Snek-in-Python 🐍
 
 A classic Snake game that runs directly in the **console**, implemented in **Python**.
 
