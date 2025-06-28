@@ -3,11 +3,13 @@
 A classic Snake game that runs directly in the **console**, implemented in **Python**.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/7cdbbc81-0d2e-4842-b949-81594ce2cab7" alt="Snek being inside Python/>
+  <img src="https://github.com/user-attachments/assets/7cdbbc81-0d2e-4842-b949-81594ce2cab7" alt="Snek being inside Python" />
 </p>
+
 ---
+
 ## Controls
-- Use `WASD` to control the snake.
+- Use `W`, `A`, `S`, `D` to control the snake.
 - Start the game by pressing any of these keys.
 
 ---
@@ -17,13 +19,13 @@ The game has **3 levels**, each with a **custom map** defined in a `.txt` file.
 
 | Symbol | Meaning                        |
 |--------|--------------------------------|
-| `o` `(green)`            | Your snake   |
-| `o` `(red)`              | Apple        |
-| `o` `(white on black)`   | Enemy snake  |
-| `o` `(gold/yellow)`      | Golden apple |
-| `#`    | Wall                           |
-| `+`    | Portal to next level           |
-| `.`    | Background tile                |
+| `o` (green)            | Your snake   |
+| `o` (red)              | Apple        |
+| `o` (white on black)   | Enemy snake  |
+| `o` (gold/yellow)      | Golden apple |
+| `#`                    | Wall         |
+| `+`                    | Portal to next level |
+| `.`                    | Background tile |
 
 ---
 
