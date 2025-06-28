@@ -5,9 +5,7 @@ A classic Snake game that runs directly in the **console**, implemented in **Pyt
 <p align="center">
   <img src="https://github.com/user-attachments/assets/7cdbbc81-0d2e-4842-b949-81594ce2cab7" alt="Snek being inside Python/>
 </p>
-
 ---
-
 ## Controls
 - Use `WASD` to control the snake.
 - Start the game by pressing any of these keys.
