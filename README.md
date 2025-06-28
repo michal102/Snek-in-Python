@@ -9,7 +9,7 @@ A classic Snake game that runs directly in the **console**, implemented in **Pyt
 ---
 
 ## Controls
-- Use `W`, `A`, `S`, `D` to control the snake.
+- Use `WASD` to control the snake.
 - Start the game by pressing any of these keys.
 
 ---
