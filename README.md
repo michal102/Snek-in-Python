@@ -37,7 +37,7 @@ The game has **3 levels**, each with a **custom map** defined in a `.txt` file.
 
 ---
 
-## Important Notes
+## ⚠️ Important Notes
 - **Keep the map `.txt` file in the same directory** as the game script – otherwise, it won't run.
 - You can edit maps by modifying the text file:
   - Replace symbols to define walls, background, portals, etc.
